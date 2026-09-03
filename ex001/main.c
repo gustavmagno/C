@@ -13,7 +13,7 @@
 		if(age >= 18 && height > 100){
 			printf("You-re good!");
 		} else {
-			printf("You-re wasted!!!");
+			printf("You-re wasted!!!!!!");
 		}				
 		return 0;
 	}
