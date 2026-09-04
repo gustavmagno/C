@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+#include <ctype.h>
 
 /**/
 void limpar_buffer(void) {
@@ -26,7 +26,8 @@ int main() {
 
 	printf("Seu nome é: %s\n", nome);
 
-	printf("%lu\n", sizeof(nome));
+	printf("O tamanho total do array é: %lu\n", sizeof(nome));
+	printf("Seu nome tem %lu caracteres\n", strlen(nome));
 
 	return 0;
 }
