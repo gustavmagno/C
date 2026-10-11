@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stlib.h>
 
 typedef struct arguments {
     unsigned int files_count;
@@ -6,6 +7,7 @@ typedef struct arguments {
 }arguments;
 
 void parse_arguments(int argc, char **argv, arguments *args) {
+    args->files = malloc(argc * sizeof(char *));
     for (int i = 1; i < argc; i++) {
     
     };
