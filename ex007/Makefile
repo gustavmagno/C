@@ -1,0 +1,14 @@
+CC = gcc
+CFLAGS = -Wall -Wextra -g
+TARGET = main.exe
+
+all: $(TARGET)
+
+$(TARGET): main.c
+	$(CC) $(CFLAGS) main.c -o $(TARGET)
+
+run: $(TARGET)
+	./$(TARGET)
+
+clean:
+	rm -f $(TARGET)
