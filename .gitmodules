@@ -1,0 +1,3 @@
+[submodule "ex006/leif"]
+	path = ex006/leif
+	url = https://github.com/cococry/leif
