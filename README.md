@@ -1,2 +1,2 @@
 # C
-learning C
+Practicing C
