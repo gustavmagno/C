@@ -4,7 +4,7 @@ int increment (int a) {
     return a++;
 }
 
-int main () {
+int main (void) {
 
     int i = 10;
     increment(i);
